@@ -42,3 +42,11 @@ This project helps users explore interview experiences from different companies 
 
 - Do not upload `db.php` or private credentials to GitHub.
 - Keep private configuration files outside the public project folder.
+ 
+ ## 📸 Project Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
