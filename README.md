@@ -1,13 +1,44 @@
-# DesiQna-Interview-Experiences
-DesiQna Interview Experiences Page
-This is the Frontend Web page. Its purpose is to make user experience better and have all the Interview Experiences of different companies in a proper manner.
+# DesiQnA - Interview Experiences
 
-Tech Stack:
+DesiQnA Interview Experiences Page.
 
-HTML
+This project helps users explore interview experiences from different companies in an organized manner.
 
-CSS
+## Tech Stack
 
-BOOTSTRAP
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- PHP
+- MySQL
 
-JAVASCRIPT
+## Features
+
+- User Registration
+- User Login and Logout
+- Password Hashing
+- Google reCAPTCHA Verification
+- User Profile
+- MySQL Database Integration
+
+## Local Setup
+
+1. Install and start XAMPP (Apache and MySQL).
+2. Clone or download this repository into `C:\xampp\htdocs\DesiQnA`.
+3. Open phpMyAdmin and create a database named `desiqna`.
+4. Create the `users` table with these columns:
+   - id
+   - name
+   - email
+   - password
+   - created_at
+5. Copy `db.example.php` and rename the copy to `db.php`.
+6. Update the database credentials in `db.php`.
+7. Configure your Google reCAPTCHA credentials privately on your local server.
+8. Open `http://localhost/DesiQnA/html/index.php`.
+
+## Security
+
+- Do not upload `db.php` or private credentials to GitHub.
+- Keep private configuration files outside the public project folder.
